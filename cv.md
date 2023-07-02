@@ -11,10 +11,12 @@
 <h2>Skills</h2>
 <ul>
   <li>Dev Tools</li>
-  <li>git</li>
+  <li>Git</li>
   <li>JS(studying)</li>
 </ul>
 <h2>Code Example</h2>
 <code>String.prototype.toJadenCase = function () {
   return this.split(' ').map(elem=>elem[0].toUpperCase()+elem.slice(1)).join(' ')
 };</code>
+<h2>English</h2>
+<p>A2 (I understand the content of short texts and etc, but I don't understand speech.)</p>
