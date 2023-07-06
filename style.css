@@ -1,8 +1,8 @@
 .nav{
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 25px;
     display:inline-block;
-    /* text-indent: 60px; */
     padding: 0 5%;
 }
 
@@ -16,4 +16,36 @@ header{
     margin: 2% 10%;
 }
 
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+.about-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 90px 0 10px 10%;
+    max-width: 60%;
+}
+
+.about-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 50%;
+    margin: 30px 0 10px 10%;
+}
+
+.about-photo{
+    border-radius: 112px;
+    float:right;
+    margin: 0 10% 0px 0;
+    position: absolute;
+    top: 160px;
+    right: 0px;
+}
 
