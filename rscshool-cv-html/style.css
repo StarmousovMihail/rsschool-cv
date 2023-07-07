@@ -1,0 +1,320 @@
+/* .page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+.nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    display:inline-block;
+    padding: 0 5%;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    max-width: 80%;
+    text-align:center;
+    margin: 2% 10%;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+.about-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #370f7b;
+    margin: 0 0 10px 0;
+    max-width: 60%;
+}
+
+.about-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 50%;
+    margin: 30px 0 10px 0;
+}
+
+.about-photo{
+    border-radius: 112px;
+    float:right;
+    margin: 0 10% 0 0;
+    position: absolute;
+    top: 160px;
+    right: 0px;
+}
+
+.about{
+    margin: 90px 0 0 10%;
+}
+
+.skills-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    max-width: 20%;
+    color:#370f7b;
+    margin: 0 0 10px 0;
+    position: absolute;
+    right: 700px;
+}
+
+.skills{
+    margin: 150px 10% 0 10%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.skill-item1{
+    list-style-type: none;
+    position: absolute;
+    top: 700px; 
+    box-sizing: border-box;
+    color:#370f7b;
+    max-width: 296px;
+    padding: 0 30px 30px 20px;
+    background-color: rgba(226, 228, 249, 0.716);
+    border-radius: 10px;
+}
+
+.skill-item2{
+    list-style-type: none;
+    position: absolute;
+    top: 700px;
+    left: 548px; 
+    color:#370f7b;
+    box-sizing: border-box;
+    max-width: 296px;
+    padding: 0 30px 30px 20px;
+    background-color: rgba(226, 228, 249, 0.716);
+    border-radius: 10px;
+}
+
+.skill-item3{
+    list-style-type: none;
+    position: absolute;
+    top: 700px;
+    left: 947px; 
+    color:#370f7b;
+    box-sizing: border-box;
+    max-width: 296px;
+    padding: 0 30px 30px 20px;
+    background-color: rgba(226, 228, 249, 0.716);
+    border-radius: 10px;
+}
+
+.skill-name1{
+    padding: 10px 0 10px 60px;
+}
+
+.skill-name2{
+    padding: 10px 0 10px 100px;
+}
+
+.skill-name3{
+    padding: 10px 0 10px 60px;
+}
+
+.skill-photo{
+    width: 256px;
+    height: 256px;
+}
+
+.skill-list{
+    display: inline;
+}
+
+.code-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 90px 0 0 0;
+    color:#370f7b;
+    position: absolute;
+    top: 1100px;
+    right: 650px ;
+}
+
+.code{
+    margin: 0px 10% 10px 10%;
+}
+
+.code-ex{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.code-container{
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(226, 228, 249, 0.716);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    top: 1310px;
+}
+
+.lang-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color:#370f7b;
+    position: absolute;
+    top: 1450px;
+    right: 690px;
+}
+
+.lang-list{
+    list-style-type: none;
+    font-size: 25px;
+    display: inline;
+}
+
+.eng-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.eng-level{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.lang-item1{
+    position: absolute;
+    top: 1600px;
+}
+
+.languages{
+    margin: 0 10% 0 10%;
+}
+
+.rus-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.rus-level{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.lang-item2{
+    position: absolute;
+    top: 1600px;
+    right: 450px;
+}
+
+.contacts-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color:#370f7b;
+    position: absolute;
+    top: 1750px;
+    right: 710px;
+}
+.contacts{
+    margin: 0 10% 0 10%;
+}
+
+.contacts-list{
+    list-style-type: none;
+}
+
+.location{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    top: 1850px;
+}
+
+.location-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 1850px;
+    right: 950px;
+}
+
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    top: 1900px;
+}
+
+.email-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 1900px;
+    right: 915px;
+}
+
+.discord{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    top: 1950px;
+}
+
+.discord-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 1950px;
+    right: 1025px;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: rgb(0, 0, 207);
+    padding: 20px;
+}
+
+.footer-date{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color:#ffff;
+}
+
+.rs-school-link{
+    padding-left: 800px;
+    padding-right: 50px;
+    width: 65px;
+    height: 65px;
+}
+
+.github-link{
+    width: 65px;
+    height: 65px;
+    color:#fff;
+}
+
+.content{
+    height: 2000px;
+}
