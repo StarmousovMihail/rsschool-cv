@@ -12,13 +12,14 @@
 </head>
 <body>
  <header>
-        <ul></ul>
+      <ul>
         <li class="nav link"><nav><a href="#about">About me</a></nav></li>
         <li class="nav link"><nav><a href="#skills">Skills</a></nav></li>
-        <li class="nav link"><nav><a href="">Contacts</a></nav></li>
-        <li class="nav link"><nav><a href="">Links</a></nav></li>
+        <li class="nav link"><nav><a href="#contacts">Contacts</a></nav></li>
+        <li class="nav link"><nav><a href="#links">Links</a></nav></li>
+      </ul>
  </header>
- <main>
+  <main class="content">
   <div class="about">
     <a name="about"></a>
     <div class="about-name">
@@ -34,7 +35,7 @@
     <a name="skills"></a>
     <div class="skills-name">
       My skills
-    </div>
+      </div>
     <ul class="skill-list">
       <li class="skill-item1">
         <span class="skill-name1">DevTools</span> <img src="https://avatars.githubusercontent.com/u/11260967?s=280&v=4" alt="Chrome DevTools logo" class="skill-photo">
@@ -47,6 +48,59 @@
       </li>
     </ul>
   </div>
- </main> 
+  <div class="code">
+    <div class="code-name">
+      Code exmaple
+    </div>
+    <div class="code-container">
+    <code class="code-ex">
+      String.prototype.toJadenCase = function () { return this.split(' ').map(elem=>elem[0].toUpperCase()+elem.slice(1)).join(' ') };
+    </code>
+  </div>
+  </div>
+  <div class="languages">
+    <div class="lang-name">
+      Languages
+    </div>
+    <div class="lang">
+      <ul class="lang-list">
+        <li class="lang-item1">
+          <span class="eng-name">English:</span>
+          <span class="eng-level">A2, Pre-Intermediate</span>
+        </li>
+        <li class="lang-item2">
+          <span class="rus-name">Russian:</span>
+          <span class="rus-level">C2, Native</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="contacts">
+    <div class="contacts-name">
+      Contacts
+    </div>
+    <ul class="contacts-list">
+      <li>
+        <span class="location">Location:</span>
+        <span class="location-text">Uralsk, Kazakhstan</span>
+      </li>
+      <li>
+        <span class="email">Email:</span>
+        <span class="email-text">starmousov08@inbox.ru</span>
+      </li>
+      <li>
+        <span class="discord">Discord:</span>
+        <span class="discord-text">bil2232#4254</span>
+      </li>
+    </ul>
+    <a name="contacts"></a>
+  </div>
+</main>
+ <footer class="footer">
+  <span class="footer-date">2023 By Mihail Starmousov</span>
+  <a href="https://rs.school/js/"><img src="./images/rs_school_js.svg" class="rs-school-link" alt="rs school logo"></a>
+  <a href="https://github.com/StarmousovMihail"><img src="./images/GitHub-Logo.svg" class="github-link" alt="GitHub logo"></a>
+  <a name="links"></a>
+ </footer>
 </body>
 </html>
